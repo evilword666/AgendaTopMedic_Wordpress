@@ -611,7 +611,8 @@ clearTable(){
 
     },(error) => {
         console.log("Error no se pudo borrar tabla: "+error)
-        alert("Error no se pudo borrar tabla: "+error)
+        //alert("Error no se pudo borrar tabla: "+error)
+        this.clearTable()
     })
 }
 /**************************************************************************************************************/

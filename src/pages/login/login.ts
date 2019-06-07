@@ -37,8 +37,13 @@ export class LoginPage {
   }
 
   ionViewDidLoad() {
+    /*
     this.user = "surleds@gmail.com";
-    this.pass = "b44ESjktTOhNba@6&Y";    
+    this.pass = "b44ESjktTOhNba@6&Y";   
+    */
+   this.user = "promedic.romero@gmail.com";
+   this.pass = "b44ESjktTOhNba@6&Y";   
+        
   }
 
   
